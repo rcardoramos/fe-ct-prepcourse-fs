@@ -180,9 +180,9 @@ function tieneTresDigitos(num) {
   // Tu código:
   const cadena = num.toString();
   console.log(cadena.length)
-  if (cadena.length === 3){
+  if (cadena.length === 3) {
     return true;
-  } else{
+  } else {
     return false;
   }
 }
@@ -196,7 +196,7 @@ function doWhile(num) {
   do {
     num += 5;
     contador++;
-  } while (contador < 8); 
+  } while (contador < 8);
 
   return num;
 }
